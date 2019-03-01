@@ -1,0 +1,100 @@
+body, html {
+    min-width: 100%;
+    min-height: 100%
+}
+body{
+    font-family: 'Monserrat', sans-serif;
+}
+hr{
+    max-width: 65px;
+    border-width:3px;
+    border-color: #f05f44;
+} 
+.faded{
+    color: rgba(255, 255, 255, 0.8);
+} 
+header.startup{
+    background-position: center;
+    background-image: url("images/office.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+header.startup hr {
+    margin-top: 50px;
+    margin-bottom:30px;
+}
+header.startup h1{
+    font-size: 2rem;
+    margin-top: 200px;
+
+}
+.btn{
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 300px;
+    font-family: 'monserrat', sans-serif;
+}
+.btn-xl {
+    padding: 1rem 2rem;
+    margin-left: 42%;
+} 
+.btn-info{
+    background-color: #f05f44;
+    border-color: #f05f44;
+}
+.btn-info:hover{
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+}
+
+@media only screen and (max-width: 768px){
+
+
+    header.startup hr {
+        margin-top: 30px;
+        margin-bottom:10px;
+    }
+    header.startup h1{
+        font-size: 2rem;
+        margin-top: 100px;
+    
+    }
+
+    .btn{
+        font-weight: 400;
+        text-transform: uppercase;
+        border-radius: 300px;
+        font-family: 'monserrat', sans-serif;
+    }
+    .btn-xl {
+        padding: 0.5rem 1rem;
+        margin-right: 100px;
+        margin-left: 39%;
+    } 
+}
+@media only screen and (max-width: 480px){
+
+
+    header.startup hr {
+        margin-top: 30px;
+        margin-bottom:10px;
+    }
+    header.startup h1{
+        font-size: 1.5rem;
+        margin-top: 100px;
+    
+    }
+
+    .btn{
+        font-weight: 400;
+        text-transform: uppercase;
+        border-radius: 300px;
+        font-family: 'monserrat', sans-serif;
+    }
+    .btn-xl {
+        padding: 0.5rem .8rem; 
+        margin-right: 100px;
+        margin-left: 36%;
+    } 
+
+}
